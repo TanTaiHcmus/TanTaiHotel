@@ -1,0 +1,75 @@
+.booking-container {
+  .booking-content {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+    .your-reservation {
+      width: 35%;
+      margin-right: 40px;
+      background-color: rgba(18, 38, 58, 0.6);
+
+      img {
+        width: 100%;
+        height: 250px;
+      }
+
+      .reservation {
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    .booking-info {
+      flex: 1;
+      position: relative;
+      .title {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+
+      .info {
+        margin-bottom: 25px;
+        font-size: 18px;
+
+        span {
+          opacity: 0.7;
+          margin-left: 5px;
+        }
+
+        .message {
+          border: 1px solid #12263a;
+          font-size: 18px;
+          margin-top: 5px;
+        }
+      }
+
+      .btn-finish {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 5px 30px;
+        background-color: #12263a;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .booking-container .booking-content .your-reservation {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}

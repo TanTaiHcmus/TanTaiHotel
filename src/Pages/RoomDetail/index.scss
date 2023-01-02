@@ -1,0 +1,63 @@
+.room-detail {
+  position: relative;
+
+  .room-detail-navbar {
+    top: 350px;
+    height: 50px;
+  }
+
+  .room-price {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 350px;
+    right: 10px;
+    padding: 10px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .room-name {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .room-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .left-content {
+      width: 55%;
+      margin-right: 40px;
+    }
+
+    .right-content {
+      flex: 1;
+
+      .booking-select-frame {
+        margin-top: 60px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .room-content {
+    .left-content {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0px;
+    }
+
+    .right-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}

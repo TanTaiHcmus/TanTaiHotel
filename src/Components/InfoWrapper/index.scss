@@ -1,0 +1,10 @@
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  font-size: 20px;
+
+  .info-wrapper-title {
+    white-space: pre-wrap;
+  }
+}

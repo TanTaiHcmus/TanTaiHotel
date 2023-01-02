@@ -1,0 +1,33 @@
+.other-room-container {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+
+  .other-room-image {
+    height: 120px;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .other-room-info {
+    .name {
+      font-size: 18px;
+    }
+
+    .other-room-price {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .btn-see-detail {
+      width: 140px;
+      padding: 5px;
+      text-align: center;
+      background-color: #12263a;
+      color: white;
+      margin-top: 35px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+}

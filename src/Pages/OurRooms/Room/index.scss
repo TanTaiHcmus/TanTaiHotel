@@ -1,0 +1,44 @@
+.room-container {
+  display: flex;
+  width: 40%;
+  min-width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: 30px;
+
+  .room-image {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .room-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      padding: 2px 10px;
+      background-color: #12263a;
+      color: white;
+      font-size: 12px;
+      text-align: center;
+      margin-right: 7px;
+      cursor: pointer;
+    }
+
+    .people-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .room-container{
+    margin-right: 0px;
+  }
+}

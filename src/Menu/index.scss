@@ -1,0 +1,17 @@
+.app-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .app-menu-item {
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &.active {
+      font-weight: bold;
+      border-bottom: 1px solid #12263a;
+    }
+  }
+}

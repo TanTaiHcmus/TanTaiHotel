@@ -1,0 +1,80 @@
+.booking-frame-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #12263a;
+  color: white;
+  padding: 20px;
+  max-width: 400px;
+
+  .item {
+    width: 50%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    .title {
+      width: 100%;
+      font-size: 21px;
+      text-align: center;
+    }
+
+    .number {
+      width: 40%;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .controller {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .sort-icon {
+        width: 20px;
+        height: 15px;
+        cursor: pointer;
+      }
+
+      .month {
+        font-size: 16px;
+        text-align: center;
+      }
+
+      .year {
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+
+  .btn-booking {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .date-picker {
+    position: absolute;
+    left: 0px;
+    top: 59px;
+
+    .react-datepicker-wrapper {
+      opacity: 0;
+
+      input {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Great-Vibes;
+  src: url("../Font/GreatVibes-Regular.ttf");
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(5, 17, 34, 0.041);
+
+  .app-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .app-name {
+    font-size: 45px;
+    font-weight: 300;
+    flex-grow: 1;
+    font-family: Great-Vibes;
+    letter-spacing: 1.5px;
+  }
+
+  .btn-login {
+    padding: 5px 15px;
+    background-color: #12263a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
